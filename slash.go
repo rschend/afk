@@ -33,7 +33,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
       //Ideally do other checks for tokens/username/etc
 
       if command == "/afk" {
-            fmt.Fprint(w, "Success")
+            fmt.Fprint(w, "Success!!")
       } else {
             fmt.Fprint(w, "Failure")
       }
